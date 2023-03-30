@@ -37,10 +37,10 @@ class GetRequest extends Component {
                         const {dueOn,status,id,userId,title} = each
                         return (
                         <li key={id} className="each-item">
-                                <p>{dueOn}</p>
-                                <p>{status}</p>
-                                <p>{title}</p>
-                                <p>{userId}</p>
+                                <span>{dueOn}</span>
+                                <span>{status}</span>
+                                <span>{title}</span>
+                                <span>{userId}</span>
                         </li>
                     )})}           
                 </ul>
