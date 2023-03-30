@@ -1,0 +1,12 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+.each-post {
+    display: flex;
+    flex-direction: column;
+}
+.output-card {
+    background-color: black;
+    color: brown;
+}

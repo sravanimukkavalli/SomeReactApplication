@@ -1,0 +1,20 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgray;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 30%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.count-align {
+    margin: 10px;
+}
