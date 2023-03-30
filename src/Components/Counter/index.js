@@ -20,9 +20,9 @@ class Counter extends Component {
                     <div className='card-container'>
                         <h1>Counter</h1>
                         <div className='items-container'>
-                            <AiOutlinePlusSquare className='count-align' onClick={this.onClickIncrement} />
-                            <h1 className='count-align'>{count}</h1>
                             <AiOutlineMinusSquare className='count-align' onClick={this.onClickDecrement} />
+                            <h1 className='count-align'>{count}</h1>
+                            <AiOutlinePlusSquare className='count-align' onClick={this.onClickIncrement} />
                         </div>
                     </div>
                 </div>
